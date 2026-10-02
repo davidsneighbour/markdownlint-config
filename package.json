@@ -38,6 +38,9 @@
     "prepare": "simple-git-hooks",
     "release": "release-it --ci",
     "release:dry": "release-it --dry-run",
+    "release:patch": "release-it patch --ci",
+    "release:minor": "release-it minor --ci",
+    "release:major": "release-it major --ci",
     "test": "node --test test/",
     "validate:types": "tsc --noEmit"
   },
