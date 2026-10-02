@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.0.0](https://github.com/davidsneighbour/markdownlint-config/compare/v0.2.11...v1.0.0) (2026-10-02)
+
+### Feat
+
+* add dnb-title-case-style rule ([f425661](https://github.com/davidsneighbour/markdownlint-config/commit/f4256617ddfeb79640b37eb426d9c4a7b300b69e))
+
+### Fix
+
+* apply .markdownlintignore through markdownlint-cli2 ([2a35475](https://github.com/davidsneighbour/markdownlint-config/commit/2a354756ae67d03aecb0bad16525d23bf5c9d25a))
+
+### Build
+
+* **deps:** update dependencies and fix audit findings ([bd64777](https://github.com/davidsneighbour/markdownlint-config/commit/bd64777017517b98ce272da04c914c3e95a2facf))
+* **deps:** use semver ranges for runtime dependencies ([ae84144](https://github.com/davidsneighbour/markdownlint-config/commit/ae841444acdf3e082e601c198edb939f43e69d11))
+* migrate release configuration to @dnbhq/release-config ([d761e95](https://github.com/davidsneighbour/markdownlint-config/commit/d761e956c5e738cf075e0ec5de55377ec7497997))
+
+### Chore
+
+* add release increment scripts ([b15af95](https://github.com/davidsneighbour/markdownlint-config/commit/b15af95c9f5834acda00e7f12ba31ac5d5443659))
+* configure Renovate with the shared preset ([0a7b283](https://github.com/davidsneighbour/markdownlint-config/commit/0a7b283fb2b397b2f305de753d3e38416890b657))
+* point repository URLs to davidsneighbour/markdownlint-config ([0117a61](https://github.com/davidsneighbour/markdownlint-config/commit/0117a61b1ad2a2371c5029832ec83b83876a93ec))
+* typecheck .release-it.ts with @dnbhq/tsconfig/cli ([c13efe0](https://github.com/davidsneighbour/markdownlint-config/commit/c13efe089ea649bb77bc8c9d7c60768c9a98baa3))
+
 ## [0.2.11](https://github.com/davidsneighbour/markdownlint-config/compare/v0.2.10...v0.2.11) (2026-07-26)
 
 ### Chores

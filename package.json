@@ -1,7 +1,7 @@
 {
   "name": "@dnbhq/markdownlint-config",
   "description": "Shared markdownlint configuration for DNBHQ projects.",
-  "version": "0.2.11",
+  "version": "1.0.0",
   "license": "MIT",
   "private": false,
   "repository": {
