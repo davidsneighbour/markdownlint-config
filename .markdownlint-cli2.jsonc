@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/dnbhq/markdownlint-config/refs/heads/main/config.jsonc",
+  "$id": "https://raw.githubusercontent.com/davidsneighbour/markdownlint-config/refs/heads/main/.markdownlint-cli2.jsonc",
   "default": true,
   "customRules": [
     "@github/markdownlint-github",

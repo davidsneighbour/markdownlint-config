@@ -6,11 +6,11 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnbhq/markdownlint-config.git"
+    "url": "git+https://github.com/davidsneighbour/markdownlint-config.git"
   },
   "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com> (https://davids-neighbour.com)",
-  "bugs": "https://github.com/dnbhq/markdownlint-config/issues",
-  "homepage": "https://github.com/dnbhq/markdownlint-config#readme",
+  "bugs": "https://github.com/davidsneighbour/markdownlint-config/issues",
+  "homepage": "https://github.com/davidsneighbour/markdownlint-config#readme",
   "dependencies": {
     "@github/markdownlint-github": "^0.8.4",
     "markdownlint": "^0.41.1",
