@@ -59,7 +59,7 @@ Add scripts to `package.json` in the consuming project:
 
 Do not put a markdownlint-cli2 options object into `.markdownlint.jsonc`. That file name is treated as a markdownlint rule configuration only. If a project needs CLI2-only fields such as `customRules`, `globs`, or `ignores`, use `.markdownlint-cli2.jsonc`.
 
-The package also ships `.markdownlintignore`. Copy it into a consuming project when that project wants to use the same ignore baseline.
+The package also ships `.markdownlintignore`. Copy it into a consuming project when that project wants to use the same ignore baseline. The shared configuration sets `"gitignore": ".markdownlintignore"`, so markdownlint-cli2 reads `.markdownlintignore` (gitignore syntax) from the directory where it runs. Without this file, no extra files are ignored.
 
 ## Available files
 

@@ -142,6 +142,9 @@
       ]
     }
   },
+  // markdownlint-cli2 does not read .markdownlintignore on its own. This reads
+  // the file from the directory markdownlint-cli2 runs in, if it exists.
+  "gitignore": ".markdownlintignore",
   "ignores": [
     "node_modules"
   ]
