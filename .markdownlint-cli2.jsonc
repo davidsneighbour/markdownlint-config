@@ -5,7 +5,8 @@
     "@github/markdownlint-github",
     "markdownlint-rule-relative-links",
     "markdownlint-rule-search-replace",
-    "markdownlint-rule-title-case-style"
+    "markdownlint-rule-title-case-style",
+    "./rules/dnb-title-case-style.mjs"
   ],
   "config": {
     // Rules
@@ -128,8 +129,13 @@
         }
       ]
     },
+    // replaced by dnb-title-case-style, which wraps it
     // @see https://www.npmjs.com/package/markdownlint-rule-title-case-style
-    "title-case-style": {
+    "title-case-style": false,
+    // heading letter case that keeps proper nouns, in-word dots (`AGENTS.md`),
+    // and trailing attribute blocks (`{.mt-5}`)
+    // @see https://github.com/davidsneighbour/markdownlint-config#dnb-title-case-style
+    "dnb-title-case-style": {
       // letter case style to apply
       //
       // "sentence" or "title" (default: sentence)
@@ -139,7 +145,12 @@
       // string[] (default: [])
       "ignore": [
         "JavaScript"
-      ]
+      ],
+      // words and phrases that keep this spelling, also inside compounds such
+      // as "Samui-style". Projects add their own names.
+      //
+      // string[] (default: [])
+      "properNouns": []
     }
   },
   // markdownlint-cli2 does not read .markdownlintignore on its own. This reads

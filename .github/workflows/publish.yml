@@ -52,8 +52,8 @@ jobs:
             exit 1
           fi
 
-      - name: Run tests
-        run: npm test --if-present
+      - name: Run quality checks
+        run: npm run check
 
       - name: Publish package
         run: npm publish

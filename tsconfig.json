@@ -1,6 +1,13 @@
 {
     "extends": "@dnbhq/tsconfig/cli",
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true
+    },
     "include": [
-        ".release-it.ts"
+        ".release-it.ts",
+        "rules/**/*.mjs",
+        "test/**/*.mjs",
+        "types/**/*.d.ts"
     ]
 }

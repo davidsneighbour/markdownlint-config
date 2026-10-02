@@ -26,22 +26,25 @@
     "@release-it/conventional-changelog": "12.0.0",
     "@types/node": "26.6.4",
     "lint-staged": "17.3.0",
+    "markdown-it": "15.0.1",
     "release-it": "21.0.2",
     "simple-git-hooks": "2.14.0",
     "typescript": "7.0.2"
   },
   "scripts": {
+    "check": "npm run lint && npm run validate:types && npm run test",
     "lint": "markdownlint-cli2 --config .markdownlint-cli2.jsonc README.md",
     "lint:staged": "lint-staged",
     "prepare": "simple-git-hooks",
     "release": "release-it --ci",
     "release:dry": "release-it --dry-run",
-    "test": "npm run lint"
+    "test": "node --test test/",
+    "validate:types": "tsc --noEmit"
   },
   "main": ".markdownlint-cli2.jsonc",
   "files": [
     ".markdownlint-cli2.jsonc",
-    "rules/*.cjs",
+    "rules/*.mjs",
     ".markdownlintignore",
     "README.md",
     "CHANGELOG.md",
