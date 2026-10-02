@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.0](https://github.com/davidsneighbour/markdownlint-config/compare/v1.0.0...v2.0.0) (2026-10-02)
+
+### Build
+
+* **fix:** remove github token configuration ([a39e9d2](https://github.com/davidsneighbour/markdownlint-config/commit/a39e9d2a2a1bec1d75091dc88de8c38fcefe3158))
+
 ## [1.0.0](https://github.com/davidsneighbour/markdownlint-config/compare/v0.2.11...v1.0.0) (2026-10-02)
 
 ### Feat
