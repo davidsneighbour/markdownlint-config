@@ -1,6 +1,6 @@
 {
-    "extends": "@dnbhq/tsconfig/strict",
+    "extends": "@dnbhq/tsconfig/cli",
     "include": [
-        "**/*.ts"
+        ".release-it.ts"
     ]
 }
